@@ -24,6 +24,8 @@ There are PoCs(analysis maybe also) I found or I collected.
 
 [CVE-2017-2536]((https://github.com/o0xmuhe/RealWorldPwn/tree/master/CVE-2017-2536))
 
+CVE-2019-0024
+
 ### My own
 
 
@@ -33,6 +35,8 @@ There are PoCs(analysis maybe also) I found or I collected.
 FoxitReader OOB Read
 
 Podofo PoCs 
+
+
 
 
 ### Fileformat bug hunting mind map
