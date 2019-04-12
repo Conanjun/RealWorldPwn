@@ -26,6 +26,8 @@ There are PoCs(analysis maybe also) I found or I collected.
 
 CVE-2019-0024
 
+[CVE-2019-7125](https://www.talosintelligence.com/vulnerability_reports/TALOS-2019-0774)
+
 ### My own
 
 
