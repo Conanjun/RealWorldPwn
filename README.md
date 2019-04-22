@@ -28,6 +28,12 @@ CVE-2019-0024
 
 [CVE-2019-7125](https://www.talosintelligence.com/vulnerability_reports/TALOS-2019-0774)
 
+CVE-2016-4622
+
+CVE-2017-2547
+
+CVE-2018-4416
+
 ### My own
 
 
