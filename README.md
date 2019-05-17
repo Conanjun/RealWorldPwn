@@ -44,6 +44,8 @@ FoxitReader OOB Read
 
 Podofo PoCs 
 
+CVE-2019-7813
+
 
 
 
