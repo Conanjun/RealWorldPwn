@@ -52,9 +52,9 @@ Podofo PoCs
 
 CVE-2019-7813
 
-Adobe Font Development Kit
+Adobe Font Development Kit PoCs
 
-
+Adobe-Acrobat-DC-Pro-touchup-UaF
 
 
 ### Fileformat bug hunting mind map
