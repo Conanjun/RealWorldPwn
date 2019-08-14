@@ -56,6 +56,7 @@ Adobe Font Development Kit PoCs
 
 Adobe-Acrobat-DC-Pro-touchup-UaF
 
+[AdobeReader_getUIPerms_setUIPerms_oobr](https://o0xmuhe.github.io/2019/08/14/Adobe-Acrobat-Reader-getUIPerms-setUIPerms-Unicode-String-Out-of-bound-Read/)
 
 ### Fileformat bug hunting mind map
 
