@@ -61,3 +61,13 @@ Adobe-Acrobat-DC-Pro-touchup-UaF
 ### Fileformat bug hunting mind map
 
 exported from xmind
+
+
+### My exploit
+
+
+- chrome_M80_crbug1051017
+
+- chrome_M73_crbug941743
+
+- chrome_M71_crbug880207
