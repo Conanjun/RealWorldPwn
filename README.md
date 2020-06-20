@@ -71,3 +71,5 @@ exported from xmind
 - chrome_M73_crbug941743
 
 - chrome_M71_crbug880207
+
+- cve-2020-3119 cisco cdp
